@@ -1,0 +1,11 @@
+# Function to check if the word "zscaler" is present in the input string
+def check_for_zscaler(input_string):
+    if "zscaler" in input_string.lower():  # Case-insensitive check
+        return "The word 'zscaler' is present in the input string."
+    else:
+        return "The word 'zscaler' is not found in the input string."
+
+# Example usage
+user_input = input("Enter a string: ")
+result = check_for_zscaler(user_input)
+print(result)
